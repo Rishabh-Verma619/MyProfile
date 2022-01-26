@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <a href="#home">
+        <button class="btn btn-primary top">👆</button>
+    </a>
+    </button>
+
+<div class="my-form w-75 mx-auto p-2 container rounded" style="display: none;" id="form">
+    
+    <form action="/1/index.html">
+        <div class="mb-3">
+          <button class="btn dismiss-btn" type="button" id="dismiss" style="float: right; font-size: 1.5rem;"><i class="fas fa-times-circle"></i></button>
+          <label for="exampleInputEmail1" class="form-label" name="email">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Recieve Blog Updates?</label>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </form>
+</div>
+
+   <!-- main-page -->
+   <div class="box">
+    <div class="container-fluid " id="home">
+        <header>
+            <div class="brand-img d-flex align-items-center">
+                <img src="images/logo.png" class="logo" alt="logo">
+                <h3 class="text-white d-inline">Rishabh</h3>
+            </div>
+            
+            <nav class="my-nav">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+            </nav>
+            <a href="#" class="cta"><button class="my-btn" id="form-btn">Join Me</button></a>
+      </header>  
+    </div>
+    <div class="row">
+        <div class="container p-4 col-lg-6 d-flex align-items-start justify-content-center my-col">
+            <div class="wrapper-container container d-flex align-items-center justify-content-end ">
+                <div class="wrapper d-inline-flex justify-content-end">
+                    <div class="static-txt">
+                        HI I'm  a 
+                    </div>
+                    <ul class="dynamic-txts">
+                        <li><span>Developer</span></li>
+                        <li><span>Programmer</span></li>
+                        <li><span>Designer</span></li>
+                        <li><span>Student</span></li>
+                    </ul>
+                </div>
+            </div>    
+            </div>
+            
+        <div class="container col-lg-6">
+            <img src="images/coder.png" alt="" class="coder-img img-fluid">
+        </div>
+    </div>
+
+   </div>
+    
+<!-- Home content -->
+<section>
+    <section class="part-1">
+        <div class="container-fluid">
+            <img src="images/waves.svg" alt="">
+        </div>       
+    </section>
+    <div class="about container-fluid">
+        <div class="about-header" id="about">
+            <div>
+                <img src="images/gamer.png" class="gamer-img" alt="">
+            </div>
+            <div>
+                <h1>About Me</h1>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <p class="about-para container shadow p-2 rounded">
+               Hi! My I am Rishabh Verma currently a student at star infotech college pursuing my BCA. <br> My Goal is to become a fullstack web Developer.
+               These are my Eduacation Qualification: 
+               <ul class="about-para container shadow rounded">
+                   <li>Schooling : St.Stephen's Sr. Sec. School. Ajmer</li>
+                   <ul>
+                       <li>CBSE 12th Qualified : 2020</li>
+                       <li>CBSE 10th Qualified : 2017</li>
+                   </ul>
+               </ul>
+            </p>
+        </div>    
+    </div>
+    <div class="container mt-4 mb-4">
+        <div class="container d-flex justify-content-center align-items-center flex-column p-2 mb-4">
+            <img src="images/skills.png" alt="" class="img-fluid skills">
+            <h1 class="text-white">My Skills</h1>
+        </div>
+        <div class="row skill-row">
+            <div class="col-md-4">
+                <div class="skill-div">
+                    <img src="images/html.png" alt="" class="lang-img clearfix float-start px-2">
+                    <p>Html Stands for hypertext markup Language. The most popular markup language for web design. Easy to learn though challenging to master</p>
+                </div>
+                
+            </div>
+            <div class="col-md-4"> 
+                <div class="skill-div">
+                    <img src="images/css.png" alt="" class="lang-img clearfix float-start px-2">
+                    <p>Cascading Style Sheet. Styling a web page is best done with css. A very easy to understand language and to get started it. But very Hard to master. Though putting the efforts are worth it in it.</p>
+                </div>
+            
+            </div>
+            <div class="col-md-4">
+                <div class="skill-div">
+                    <img src="images/js.png" alt="" class="lang-img clearfix float-start px-2" style="overflow: hidden;">
+                    <p>JavaScript is also called the brain of your web page.. it ads functionality to your webpage. Also known as the language of the browser</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row skill-row">
+            <div class="col-md-4">
+                <div class="skill-div">
+                    <img src="images/c.png" alt="" class="lang-img clearfix float-start px-2">
+                    <p>I learned it to clear my concepts about how programming actually happens. The memory management, allocation, pointers, all are its unique perks.</p>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="skill-div">
+                    <img src="images/java.png" alt="" class="lang-img clearfix float-start px-2">
+                    <p>My Favourite Language till date. The object orientation nature of java make its the most logically sound in my opinion. Write once run everywhere</p>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="skill-div">
+                    <img src="images/node.png" alt="" class="lang-img clearfix float-start px-2">
+                    <p>A very vast language which you can never learn fully. If you want to create a unique app which is hosted on a domain learning node as a backend language is way to go. In demand and intuitiveness are its best perks.</p>
+                </div>
+            </div>
+        </div>
+    </div>   
+</section>
+   
+
+<!-- Projects -->
+<section id="project">
+    <div class="card-container">
+        <div class="container d-flex flex-column text-white p-4">
+            <img src="images/proj-head.png" alt="" class="img-fluid proj-head">
+            <h1>My Projects</h1>
+        </div>
+        <div class="container footer">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="card proj-img">
+                            <div class="card-img-top">
+                                <img src="images/project-1.png" alt="" class="img-fluid proj-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p>My First ever html and css only project. Languages used are pure HTML and CSS.
+                                        In this project I try to make my first ever profile which is presentable and also my hobbies are listed over there.
+                                    </p>
+                                    <a href="https://rishabh-verma619.github.io/PersonalSite/"><button class="btn btn-info col-12 btn-1">To Project</button></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card proj-img">
+                            <div class="card-img-top">
+                                <img src="images/project-2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p>A fun project me and My friend Created! It was made in a single day. The purpose of this project is to implement the knowledge of Bootstrap I just learnt. This project Lists my Top Ten favourite Animes in a responsive layout</p>
+                                    <a href="https://rishabh-verma619.github.io/TopTenAnime/" class="btn btn-info col-12">To Project</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="footer">
+        <div class="container-fluid">
+            <h2>Contact Me</h2>
+            <div class="cont-logo-container-container">
+                <div class="cont-logo-container">
+                    <a href="#">
+                        <img src="images/instagram.png" alt="" class="cont-logo">
+                    </a>
+                    <p class="text-white h3 p-2">Instagram</p>
+                </div>
+                <div class="cont-logo-container">
+                    <a href="https://www.youtube.com/channel/UCAXXgAEpBftUGHqGyERBcFg">
+                        <img src="images/youtube.png" alt="" class="cont-logo">
+                    </a>
+                    <p class="text-white h3 p-2">Youtube</p>
+                </div>
+                <div class="cont-logo-container">
+                    <a href="https://github.com/Rishabh-Verma619/">
+                        <img src="images/github.png" alt="" class="cont-logo">
+                    </a>
+                    <p class="text-white h3 p-2">Github</p>
+                </div>
+            </div>
+            <footer class="container-fluid text-white text-center d-flex align-items-center justify-content-center p-2">
+                <p class=""> 
+                    Made With ❤️ by Rishabh Verma ©2022
+                </p> 
+            </footer>
+        </div>
+    </div>
+</section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</html>
